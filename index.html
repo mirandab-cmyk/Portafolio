@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- EDITAR: cambia el título y la descripción que aparecen en la pestaña del navegador. -->
+  <meta name="description" content="Portafolio de Benjamín Miranda, estudiante de Ingeniería en Realidad Virtual y Diseño de Juegos Digitales.">
+  <title>Benjamín Miranda | Portafolio</title>
+
+  <!-- Tipografías y hoja de estilos. No es necesario modificar estas líneas. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="site-shell">
+
+    <!-- ENCABEZADO PERSONALIZADO -->
+    <header class="topbar">
+      <a class="brand" href="#inicio">
+        <span class="brand-mark">BM<span>.</span></span>
+        <span>BENJAMÍN MIRANDA / DEV</span>
+      </a>
+
+      <nav class="main-nav" aria-label="Navegación principal">
+        <a href="#proyectos">Proyectos</a>
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#habilidades">Habilidades</a>
+      </nav>
+
+      <a class="nav-cta" href="mailto:mirandab@pregrado.ubo.cl">Hablemos <span>↗</span></a>
+    </header>
+
+    <main>
+      <!-- PRESENTACIÓN PERSONALIZADA -->
+      <section class="hero" id="inicio">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> ESTUDIANTE DE DESARROLLO DE EXPERIENCIAS INTERACTIVAS</p>
+
+          <!-- EDITAR: escribe una frase corta que describa tu trabajo. -->
+          <h1>Creo mundos.<br><span class="outlined">Programo</span> experiencias<span class="accent">.</span></h1>
+          <p class="hero-description">
+            Soy <strong>Benjamín Miranda</strong>, estudiante de Ingeniería en Realidad Virtual y Diseño de Juegos Digitales.
+            Me interesa la programación y la creación de mecánicas de juego para desarrollar experiencias interactivas.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#proyectos">Ver mis proyectos <span>↓</span></a>
+            <a class="text-link" href="mailto:mirandab@pregrado.ubo.cl">Contactar <span>↗</span></a>
+          </div>
+
+          <div class="hero-meta">
+            <span>UNITY</span><i></i><span>C#</span><i></i><span>VR / XR</span>
+          </div>
+        </div>
+
+        <!-- Ilustración decorativa hecha con CSS. Puedes conservarla sin cambios. -->
+        <div class="hero-art" aria-label="Ilustración abstracta de un mundo digital">
+          <div class="art-grid"></div>
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="planet"><div class="planet-shine"></div><div class="planet-ring"></div></div>
+          <div class="floating-card card-code"><span class="card-label">CURRENT BUILD</span><strong>GAMEPLAY_DEV</strong><span class="build-status">● PLAYABLE</span></div>
+          <div class="floating-card card-coord">X: 04.28<br>Y: 12.06<br>Z: 08.91</div>
+          <span class="art-cross cross-one">＋</span>
+          <span class="art-cross cross-two">＋</span>
+          <span class="art-caption">A WORLD IN PROGRESS</span>
+        </div>
+        <div class="scroll-note"><span class="scroll-line"></span> SCROLL PARA EXPLORAR</div>
+      </section>
+
+      <!-- PROYECTOS: se eligieron trabajos y ejercicios mencionados anteriormente. Reemplaza las imágenes temporales por capturas propias. -->
+      <section class="projects section-wrap" id="proyectos">
+        <div class="section-heading">
+          <div><p class="eyebrow">01 / MI TRABAJO</p><h2>Proyectos<span class="accent">.</span></h2></div>
+          <p class="section-intro">Una selección de videojuegos, prototipos y experiencias en las que he trabajado.</p>
+        </div>
+
+        <div class="project-grid">
+          <!-- PROYECTO 1: sistema de árbol de habilidades en Unity. Imagen temporal: reemplazar por una captura del proyecto. -->
+          <article class="project-card">
+            <a class="project-image" href="https://cdn.discordapp.com/attachments/923821976454307861/1575169353635070020/image.png?ex=6b084e47&is=6b06fcc7&hm=04696657c09ba2119bedf5a247c468477565c8c10ccc3547d7982bb088f351b7" target="_blank" rel="noopener noreferrer" aria-label="Consultar repositorios del proyecto de árbol de habilidades">
+              <img src="imagenes/arbol-habilidades.png" alt="Captura del árbol de habilidades desarrollado en Unity">
+            </a>
+            <div class="project-info">
+              <div>
+                <h3>Árbol de habilidades — Unity</h3>
+                <p>Prototipo de un sistema de habilidades con estructura de árbol. Incluye nodos, conexiones, requisitos jerárquicos y puntos necesarios para desbloquear habilidades.</p>
+              </div>
+            </div>
+            <a class="project-button" href="https://cdn.discordapp.com/attachments/923821976454307861/1575169353635070020/image.png?ex=6b084e47&is=6b06fcc7&hm=04696657c09ba2119bedf5a247c468477565c8c10ccc3547d7982bb088f351b7" target="_blank" rel="noopener noreferrer">Ver repositorios <span>↗</span></a>
+          </article>
+
+          <!-- PROYECTO 2: motor de ajedrez con IA desarrollado en Python. -->
+          <article class="project-card">
+            <a class="project-image" href="https://media.discordapp.net/attachments/923821976454307861/1575161320762773556/motor-ajedrez.png?ex=6b0846cb&is=6b06f54b&hm=9a42f5f990351365d323a5d7358f27c6735ed08101ea2b43bdd1ef51992dae23&format=webp&quality=lossless" target="_blank" rel="noopener noreferrer" aria-label="Consultar repositorios del motor de ajedrez">
+              <img src="imagenes/motor-ajedrez.png" alt="Captura del motor de ajedrez desarrollado en Python">
+            </a>
+            <div class="project-info">
+              <div>
+                <h3>Motor de ajedrez con IA — Python</h3>
+                <p>Motor de ajedrez que utiliza Minimax y poda Alpha-Beta para analizar movimientos. Incluye evaluación de piezas, control del centro, detección de jaque y ordenamiento de movimientos para elegir jugadas.</p>
+              </div>
+            </div>
+            <a class="project-button" href="https://media.discordapp.net/attachments/923821976454307861/1575161320762773556/motor-ajedrez.png?ex=6b0846cb&is=6b06f54b&hm=9a42f5f990351365d323a5d7358f27c6735ed08101ea2b43bdd1ef51992dae23&format=webp&quality=lossless" target="_blank" rel="noopener noreferrer">Ver repositorios <span>↗</span></a>
+          </article>
+
+          <!-- PROYECTO 3: sistema de baraja HERO y lista enlazada en C#. -->
+          <article class="project-card">
+            <a class="project-image" href="https://cdn.discordapp.com/attachments/923821976454307861/1575167617323241562/baraja-hero.png?ex=6b084ca9&is=6b06fb29&hm=8fc75441ba0e5f6e4295da5ab5eec88e3a6599726abb874291e04817d8ded449" target="_blank" rel="noopener noreferrer" aria-label="Consultar repositorios del sistema de baraja HERO">
+              <img src="imagenes/baraja-hero.png" alt="Captura del sistema de baraja HERO desarrollado en C#">
+            </a>
+            <div class="project-info">
+              <div>
+                <h3>Sistema de baraja HERO — C#</h3>
+                <p>Implementación de una lista enlazada para administrar una mano de cartas de Yu-Gi-Oh!. Permite robar cartas, mostrar la mano, buscar cartas por nombre, jugar cartas y contar elementos según su nombre o prefijo.</p>
+              </div>
+            </div>
+            <a class="project-button" href="https://cdn.discordapp.com/attachments/923821976454307861/1575167617323241562/baraja-hero.png?ex=6b084ca9&is=6b06fb29&hm=8fc75441ba0e5f6e4295da5ab5eec88e3a6599726abb874291e04817d8ded449" target="_blank" rel="noopener noreferrer">Ver repositorios <span>↗</span></a>
+          </article>
+        </div>
+      </section>
+
+      <!-- SOBRE MÍ: presentación basada en la información proporcionada. -->
+      <section class="about section-wrap" id="sobre-mi">
+        <div class="about-index"><p class="eyebrow">02 / SOBRE MÍ</p><span class="big-index">02</span></div>
+        <div class="about-content">
+          <h2>La tecnología es el medio.<br><span class="muted">La experiencia es el objetivo.</span></h2>
+          <p>Soy estudiante de Ingeniería en Realidad Virtual y Diseño de Juegos Digitales. Tengo especial interés en la programación, la lógica y el desarrollo de mecánicas de juego. Me motiva aprender nuevas herramientas y llevar ideas a prototipos interactivos, especialmente utilizando Unity.</p>
+          <a class="text-link" href="mailto:mirandab@pregrado.ubo.cl">Contactarme <span>↗</span></a>
+        </div>
+      </section>
+
+      <!-- HABILIDADES: cambia las herramientas y conocimientos por los que realmente dominas. -->
+      <section class="skills section-wrap" id="habilidades">
+        <div class="section-heading">
+          <div><p class="eyebrow">03 / HABILIDADES</p><h2>Lo que hago<span class="accent">.</span></h2></div>
+          <p class="section-intro">Herramientas y conocimientos que utilizo en mis proyectos.</p>
+        </div>
+        <div class="skill-list">
+          <div class="skill-row"><span class="skill-num">01</span><h3>Desarrollo de videojuegos</h3><p>Unity · C# · Mecánicas de juego</p><span class="skill-arrow">↗</span></div>
+          <div class="skill-row"><span class="skill-num">02</span><h3>Programación</h3><p>Lógica de programación · Programación orientada a objetos</p><span class="skill-arrow">↗</span></div>
+          <div class="skill-row"><span class="skill-num">03</span><h3>Desarrollo web</h3><p>HTML · CSS · JavaScript · Three.js</p><span class="skill-arrow">↗</span></div>
+          <div class="skill-row"><span class="skill-num">04</span><h3>Prototipado e interacción</h3><p>Física en Unity · SpringJoint · LineRenderer</p><span class="skill-arrow">↗</span></div>
+        </div>
+      </section>
+
+      <!-- CONTACTO: correo proporcionado por Benjamín. -->
+      <section class="contact" id="contacto">
+        <div class="contact-inner">
+          <p class="eyebrow">04 / CONTACTO</p>
+          <h2>¿Creamos algo<br>juntos<span class="accent">?</span></h2>
+          <a class="contact-button" href="mailto:mirandab@pregrado.ubo.cl">mirandab@pregrado.ubo.cl <span>↗</span></a>
+        </div>
+        <div class="contact-decoration">LET'S<br>BUILD<br><span>WORLDS.</span></div>
+      </section>
+    </main>
+
+    <!-- PIE DE PÁGINA: GitHub disponible; LinkedIn e itch.io pendientes de proporcionar. -->
+    <footer class="footer">
+      <a class="brand" href="#inicio"><span class="brand-mark">BM<span>.</span></span><span>BENJAMÍN MIRANDA / DEV</span></a>
+      <p>Programando ideas, construyendo experiencias.</p>
+      <div class="social-links">
+        <a href="https://github.com/mirandab-cmyk?tab=repositories" target="_blank" rel="noopener noreferrer">GITHUB ↗</a>
+        <!-- PENDIENTE: agregar enlace de LinkedIn cuando se proporcione el perfil. -->
+        <span>LINKEDIN (PENDIENTE)</span>
+        <!-- PENDIENTE: agregar enlace de itch.io cuando se proporcione el perfil. -->
+        <span>ITCH.IO (PENDIENTE)</span>
+      </div>
+      <span class="copyright">© 2026 BENJAMÍN MIRANDA</span>
+    </footer>
+
+  </div>
+</body>
+</html>
